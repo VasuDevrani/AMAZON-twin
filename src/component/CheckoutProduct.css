@@ -1,0 +1,60 @@
+.title{
+    font-size: 2.4vw;
+}
+.check-img{
+    width: 13vw;
+    height: 10vw;
+}
+.checkoutProduct{
+    padding: 3vh;
+    border: 2px solid grey;
+    margin:5vh;
+    height: 100%;
+    display: flex;
+}
+.price {
+    font-size: 1.3vw;
+    margin-bottom: 2px;
+}
+.checkout-btn{
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 0.3vw;
+    margin-top: 0;
+    font-size: 1.3vw;
+}
+.prod_rating{
+    display: flex;
+    font-size: 1.3vw;
+    margin-bottom: -10px;
+}
+@media screen and (max-width: 715px) {
+    .check-img{
+        width: 15vw;
+        height: 13vw;
+    }
+}
+@media screen and (max-width: 630px) {
+    .check-img{
+        width: 15vw;
+        height: 14vw;
+    }
+}
+@media screen and (max-width: 390px) {
+    .check-img{
+        width: 16vw;
+        height: 16vw;
+    }
+    .prod_rating{
+        display: flex;
+        font-size: 1.3vw;
+        margin-bottom: -20px;
+    }
+}
+@media screen and (max-width: 290px) {
+    .check-img{
+        width: 20vw;
+        height: 19vw;
+    }
+}

@@ -1,0 +1,10 @@
+.row1,.row2,.row3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw;
+}
+.row{
+    width: 100%;
+    margin: 0;
+}

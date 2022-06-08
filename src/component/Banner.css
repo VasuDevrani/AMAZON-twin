@@ -1,0 +1,41 @@
+.bannerimg {
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
+}
+.Banner {
+    z-index: -1;
+    margin-bottom: -50vh;
+}
+.carousel-btn{
+    width: 10vw;
+}
+@media screen and (max-width: 1350px) {
+    .Banner {
+        margin-bottom: -40vh;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .Banner {
+        margin-bottom: -30vh;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Banner {
+        margin-bottom: -20vh;
+    }
+}
+@media screen and (max-width: 580px) {
+    .Banner {
+        margin-bottom: -12vh;
+    }
+}
+@media screen and (max-width: 370px) {
+    .Banner {
+        margin-bottom: -8vh;
+    }
+}
+@media screen and (max-width: 280px) {
+    .Banner {
+        margin-bottom: -5vh;
+    }
+}

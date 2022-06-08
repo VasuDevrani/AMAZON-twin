@@ -1,0 +1,68 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 0.5vw;
+}
+.nav>a{
+    color: white;
+    text-decoration: none;
+}
+.nav-logo>img{
+    width: 8vw;
+}
+.address-head{
+    font-size: 1vw;
+}
+.address-base{
+    font-size: 1.2vw;
+}
+.search-area{
+    width: 38vw;
+    display: flex;
+    height: 7vh; 
+}
+.search-box{
+    width: 90%;
+    border: none;
+}
+.search-btn{
+    color: white;
+    width: 8%;
+    background-color: orange;
+    border: none;
+    font-size: 1vw;
+}
+.flag>img{
+    width: 2vw;
+}
+.nav-sign-in{
+    font-size: 1.2vw;
+}
+.orders{
+    font-size: 1.2vw;
+}
+.cart-icon{
+    font-size: 2.1vw;
+    border: none;
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 1100px) {
+    .search-area{
+        height: 5vh; 
+    }
+}
+@media screen and (max-width: 780px) {
+    .search-area{
+        height: 4vh; 
+    }
+}
+@media screen and (max-width:500px) {
+    .search-area{
+        height: 3vh; 
+    }
+}
